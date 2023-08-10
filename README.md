@@ -3,4 +3,5 @@
 06/08 => mimarinin çekirdeği ve infrastructure ve api kısmı referansları tamamlandı iskeleti oluşturulup çalışan bir yapı oluşturuldu </br>
 07/08 => orm için efektif mimari geliştirildi diyagramlar yapıldı migration işlemi yapıldı </br>
 08/08 => yeni migration işlemlerine uygun ilerledim </br>
-09/08 => veri erişim modeline devam ettim 
+09/08 => veri erişim modeline devam ettim </br>
+10/08 => veri erişim modeline devam ediyorum ve iflahım kaydı bu ne olum yaaaav kudurcum kudurucuuuum 
