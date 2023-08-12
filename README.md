@@ -5,3 +5,4 @@
 08/08 => yeni migration işlemlerine uygun ilerledim </br>
 09/08 => veri erişim modeline devam ettim </br>
 10/08 => veri erişim modeline devam ediyorum ve iflahım kaydı bu ne olum yaaaav kudurcum kudurucuuuum 
+12/08 => base model işlemleri bitti data kontrolü kullanılabilir halde artık
