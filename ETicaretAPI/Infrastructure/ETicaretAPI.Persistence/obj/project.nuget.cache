@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z9VzzDUZOox/oVG/1EHKlz7V5hh/dG78g3bNfqg5fzEoE2faUn53NJEDfDV3sgM6JfDzz2kbUAEdywROhhDrRQ==",
+  "dgSpecHash": "7KG0/NCHK8FmgJEICAjUeBxZtxiMdmNzeuS5Tq5mKiOnp4QuEoij2k8VFGGmu3ZMPqwVptaOl4g1M4vj6ZjGkw==",
   "success": true,
   "projectFilePath": "C:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
   "expectedPackageFiles": [
