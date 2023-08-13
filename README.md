@@ -4,4 +4,6 @@
 07/08 => orm için efektif mimari geliştirildi diyagramlar yapıldı migration işlemi yapıldı </br>
 08/08 => yeni migration işlemlerine uygun ilerledim </br>
 09/08 => veri erişim modeline devam ettim </br>
-10/08 => veri erişim modeline devam ediyorum ve iflahım kaydı bu ne olum yaaaav kudurcum kudurucuuuum 
+10/08 => veri erişim modeline devam ediyorum ve iflahım kaydı bu ne olum yaaaav kudurcum kudurucuuuum </br>
+12/08 => base model işlemleri bitti data kontrolü kullanılabilir halde artık </br>
+13/08 => backend tarafı şuanlık süreçte tamamlandı development aşaması devam edicek, client tarafı admin paneli düzenleniyor
