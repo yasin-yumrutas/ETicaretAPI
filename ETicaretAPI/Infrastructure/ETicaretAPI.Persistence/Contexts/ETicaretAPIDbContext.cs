@@ -1,4 +1,5 @@
 ﻿using ETicaretAPI.Domain.Entities;
+using ETicaretAPI.Domain.Entities.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
@@ -14,24 +15,26 @@ namespace ETicaretAPI.Persistence.Contexts
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
+
+        public override async  Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            //ChangeTracker : Entityler üzerinden yapılan değişiklerin yada yeni eklenen verinin yakalanmasını sağlayan propertydir. Update operasyonlarında Track edilen verileri yakalayıp elde etmemizi sağlar.
+
+            var datas = ChangeTracker
+                .Entries<BaseEntity>();
+
+            foreach(var data in datas)
+            {
+                _ = data.State switch
+                {
+                    EntityState.Added => data.Entity.CreateDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.UpdateDate = DateTime.UtcNow
+                };
+            }
+
+            return await base.SaveChangesAsync(cancellationToken);
+        }
     }
-
-    //public class ETicaretDbContextFactory : IDesignTimeDbContextFactory<ETicaretAPIDbContext>
-    //{
-    //    public ETicaretAPIDbContext CreateDbContext(string[] args)
-    //    {
-    //        var configuration = new ConfigurationBuilder()
-    //            .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "..", "ETicaretAPI.API"))
-    //            .AddJsonFile("appsettings.json")
-    //            .Build();
-
-    //        var builder = new DbContextOptionsBuilder<ETicaretAPIDbContext>();
-    //        var connectionString = configuration.GetConnectionString("DefaultConnection");
-    //        builder.UseSqlServer(connectionString);
-
-    //        return new ETicaretAPIDbContext(builder.Options);
-    //    }
-    //}
 }
 
 

@@ -3919,11 +3919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+      "projectUniqueName": "c:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
       "projectName": "ETicaretAPI.Persistence",
-      "projectPath": "C:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+      "projectPath": "c:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
       "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-      "outputPath": "C:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\obj\\",
+      "outputPath": "c:\\ETicaretCSharp\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3945,8 +3945,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\ETicaretCSharp\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
-              "projectPath": "C:\\ETicaretCSharp\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
+            "c:\\ETicaretCSharp\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+              "projectPath": "c:\\ETicaretCSharp\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
             }
           }
         }

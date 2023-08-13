@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WlskCQvkYf3FxQ5SYLqkRnlH+HCGbgabfxw5Isblgkn1qPJ4gpfs3t/7K7FBNurSLw3e2yjFczRVffvVBXW3Mw==",
+  "dgSpecHash": "H2waxu2C42UvyxjMLDGQc58k5jYaoxbuWFiwRQvLoqq96Vfmd1K4tROHVYtFvYUwyquUa6FtamgEqrkPS/UJPw==",
   "success": true,
-  "projectFilePath": "C:\\ETicaretCSharp\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+  "projectFilePath": "c:\\ETicaretCSharp\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yasin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
